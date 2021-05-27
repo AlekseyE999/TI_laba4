@@ -20,7 +20,7 @@ namespace GUI
         public Form1()
         {
             InitializeComponent();
-            var polynomial = new int[] { 26, 8, 7, 1 };
+            var polynomial = new int[] { 27, 8, 7, 1 };
             cipherMachine = new CipherMachine(polynomial);
         }
 
@@ -106,18 +106,6 @@ namespace GUI
             string text = cipherMachine.Decipher(cipherText);
 
             this.result.Text = text;
-        }
-
-        private void save_Click(object sender, EventArgs e)
-        {
-            if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
-                return;
-
-            string filePath = openFileDialog1.FileName;
-            using (StreamWriter writer = new StreamWriter(filePath))
-            {
-                writer.Write(this.result.Text);
-            }
         }
     }
 
