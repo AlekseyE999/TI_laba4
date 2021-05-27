@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{9DF0F8AD-F167-4DFF-9749-C8F455795A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamCipher", "StreamCipher\StreamCipher.csproj", "{68ADEED0-699C-4DC4-BEC6-CF95283BE457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF0F8AD-F167-4DFF-9749-C8F455795A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF0F8AD-F167-4DFF-9749-C8F455795A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF0F8AD-F167-4DFF-9749-C8F455795A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF0F8AD-F167-4DFF-9749-C8F455795A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68ADEED0-699C-4DC4-BEC6-CF95283BE457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68ADEED0-699C-4DC4-BEC6-CF95283BE457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68ADEED0-699C-4DC4-BEC6-CF95283BE457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68ADEED0-699C-4DC4-BEC6-CF95283BE457}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C49E8B70-E950-46BF-9D9C-32CBB344722E}
+	EndGlobalSection
+EndGlobal
